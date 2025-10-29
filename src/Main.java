@@ -164,7 +164,7 @@ class CarRentalSyatem {
                     System.out.println("Customer Name:" + newCustomer.getName());
                     System.out.println("Car:" + selectedCar.getBrand() + " " + selectedCar.getModel());
                     System.out.println("Rental Days :" + rentdays);
-                    System.out.printf("Total Price: $%.2f%n", totalPrice*rentdays-10);
+                    System.out.printf("Total Price: $%.2f%n", totalPrice*rentdays);
                     System.out.println("\n Comfirm rental (Y/N");
                     String confirm = scanner.nextLine();
                     if (confirm.equalsIgnoreCase("Y")) {
